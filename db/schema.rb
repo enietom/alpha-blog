@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20180116151023) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
-    t.string "#<ActiveRecord::ConnectionAdapters::SQLite3::TableDefinition:0x000006034b9e08>"
+    t.string "#<ActiveRecord::ConnectionAdapters::SQLite3::TableDefinition:0x00000603506348>"
   end
 
   create_table "users", force: :cascade do |t|
